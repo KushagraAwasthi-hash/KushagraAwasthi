@@ -1,0 +1,6 @@
+<h2>Register Complaint</h2>
+
+<input placeholder="Room Number"><br><br>
+<textarea placeholder="Write your problem"></textarea><br><br>
+
+<button onclick="alert('Complaint submitted')">Submit</button>

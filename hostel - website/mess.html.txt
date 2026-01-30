@@ -1,0 +1,17 @@
+<h2>Rate Mess Food</h2>
+
+<select>
+  <option>Breakfast</option>
+  <option>Lunch</option>
+  <option>Dinner</option>
+</select><br><br>
+
+<select>
+  <option>⭐</option>
+  <option>⭐⭐</option>
+  <option>⭐⭐⭐</option>
+  <option>⭐⭐⭐⭐</option>
+  <option>⭐⭐⭐⭐⭐</option>
+</select><br><br>
+
+<button onclick="alert('Thanks for feedback!')">Submit</button>

@@ -1,0 +1,7 @@
+<h2>Notice Board</h2>
+
+<ul>
+  <li>Mess timing changed</li>
+  <li>Water issue in Block B</li>
+  <li>Warden meeting at 7 PM</li>
+</ul>
