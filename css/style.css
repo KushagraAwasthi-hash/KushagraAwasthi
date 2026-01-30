@@ -1,49 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>SVBH Hostel | NIT Allahabad</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>SVBH Hostel | NIT Allahabad</title>
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<header>
-  <h1>SVBH Hostel</h1>
-  <p>NIT Allahabad</p>
-</header>
+    <!-- HEADER -->
+    <header class="header">
+        <h1>SVBH Hostel</h1>
+        <p>Motilal Nehru National Institute of Technology, Allahabad</p>
+    </header>
 
-<nav>
-  <a href="#about">About</a>
-  <a href="#mess">Mess</a>
-  <a href="#contact">Contact</a>
-</nav>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <a href="#mess">Mess</a>
+        <a href="#complaints">Complaints</a>
+        <a href="#notices">Notices</a>
+        <a href="#classes">Classes</a>
+        <a href="#contacts">Contacts</a>
+    </nav>
 
-<section id="about">
-  <h2>About Hostel</h2>
-  <p>
-    SVBH Hostel provides comfortable accommodation,
-    hygienic mess and disciplined environment
-    for students of NIT Allahabad.
-  </p>
-</section>
+    <!-- MESS SECTION -->
+    <section id="mess" class="card">
+        <h2>🍽️ Mess Food Rating</h2>
+        <p>Rate today’s food (Breakfast / Lunch / Snacks / Dinner)</p>
+        <button>Rate Food</button>
+    </section>
 
-<section id="mess">
-  <h2>Mess Timings</h2>
-  <ul>
-    <li>Breakfast: 7:30 – 9:00 AM</li>
-    <li>Lunch: 12:30 – 2:00 PM</li>
-    <li>Dinner: 7:30 – 9:00 PM</li>
-  </ul>
-</section>
+    <!-- COMPLAINT SECTION -->
+    <section id="complaints" class="card">
+        <h2>🛠️ Register Complaint</h2>
+        <p>Bathroom, Water, Electricity, Fan, Geyser, Cleanliness</p>
+        <button>Raise Complaint</button>
+    </section>
 
-<section id="contact">
-  <h2>Contact</h2>
-  <p>Hostel Office: +91-XXXXXXXXXX</p>
-</section>
+    <!-- NOTICE SECTION -->
+    <section id="notices" class="card">
+        <h2>📢 Hostel Notices</h2>
+        <p>Mess timing, holidays, maintenance updates</p>
+        <button>View Notices</button>
+    </section>
 
-<footer>
-  <p>© 2026 SVBH Hostel | Created by Kushagra</p>
-</footer>
+    <!-- CLASS SECTION -->
+    <section id="classes" class="card">
+        <h2>📚 Today’s Classes</h2>
+        <p>Select branch & see today’s schedule</p>
+        <button>View Schedule</button>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contacts" class="card">
+        <h2>📞 Emergency Contacts</h2>
+        <ul>
+            <li>Warden: XXXXXXXX</li>
+            <li>Security: XXXXXXXX</li>
+            <li>Hostel Office: XXXXXXXX</li>
+        </ul>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2026 SVBH Hostel | Made by Kushagra</p>
+    </footer>
 
 </body>
 </html>
